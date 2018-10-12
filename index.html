@@ -1,47 +1,185 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-	</head>
-	<body>
-		
-		<h1 align = 'center'>Development Progress on <i>UnNamed Space Game</i></h1>
-		<h4 align = 'center'>This website is to provide updates on group 7's progress on their upcoming game. Updates are posted each saturday about the progress made during the week</h4>
-		<ul>
-			<p><b><u>Progress:</u></b></p>
-			<li>October 7, 2018 -This week more progress was made on the player character. One of our plans was to create sections in space that utilized weapon momentum. We added a friction coefficient
-				which increases the amount of time for the player to stop moving. In addition, it lowers the influence of the players movement controls. The weapon recoil is not affected by this which
-				allows the player to move by firing in the opposite direction.<br>
-				<video width="640" height="480" controls>
-					<source src="10_7_2018_Friction_Demo.mp4" type="video/mp4">
-				</video><br>
-				We also added a second weapon type. The shotgun fires three projectiles. One directly ahead and one on either side at a 10 degree angle. The shotgun fires slower and has a larger recoil
-				than the pistol.We also added the ability to switch between the pistol and shotgun using the space bar.<br>
-				<video width="640" height="480" controls>
-					<source src="10_7_2018_Weapon_Demo.mp4" type="video/mp4">
-				</video><br>
-				Finally, we added some controller support. This has been tested with a wired xbox 360 controller The player is moved using the left analogue stick. When the player tilts the right analogue
-				stick, the player character fires in the direction that the stick was tilted in. Currently, weapons can be switched using the a button. When controller input is detected, the mouse cursor
-				becomes hidden. Moving with the arrow keys or clicking the mouse button brings it back. 
-				<video width="640" height="480" controls>
-					<source src="10_7_2018_Controller_Demo.mp4" type="video/mp4">
-				</video><br>
-			</li>
-			<li>September 29, 2018 - This week we acquired some free assets to work as the current wall and floor sprites. We used Unity’s Tilemap feature to quickly prototype different level layouts 
-				by using the Tilemap brushes. This allowed us to easily add collision detections to the walls as well. We will next begin work on creating other types of objects to be placed in our levels. 
-				Weapon upgrades will likely be implemented next.<br>
-				<img src="Walls.PNG" width="640" height="480" alt="WallPic">
-			
-			</li>
-			
-			<li>September 22, 2018 - We created a unity project and activated the collaboration option so all group members could work together. We created a prototype to test basic player controls.
-			    The "player character" can move with wasd and a cursor is generated to show where the player is aiming. The player can shoot by pressing the mouse button or holding the button down.
-			    A restriction has been placed on the weapons fire rate. There still isnt any collision detection.<br>
-			    <video width="640" height="480" controls>
-  				<source src="9_22_2018.mp4" type="video/mp4">
-				</video>
-			</li>
-			
-			<li>September 15, 2018 - Met to discuss overall design of the game to prepare for the <a href = 'SpaceGroup7.pdf'>game proposal presentation</a>. Downloaded Unity to start developement.</li>
-		</ul>
-	</body>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<body>
+
+
+
+<!-- Header -->
+
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+  <div class="w3-center">
+  <h4>CAP 4053, Group 7 Presents:</h4>
+  <h1 class="w3-xxxlarge w3-animate-bottom">SPACE GAME</h1>
+    <div class="w3-padding-32">
+    </div>
+  </div>
+</header>
+
+<div class="w3-content" style="max-width:1200px;min-width:500px">
+
+<div class="w3-container w3-cell w3-padding-large">
+  <h1 class="w3-center">About Game</h1><br>
+  <p class="w3-large">Our game is a 2-D, top-down, puzzle/shooter game. In this game, you will play the role of a lone astronaut, whose space ship has come under siege by an alien force. You must now fight and solve your way through various, treacherous rooms on your way to the ship's escape pod. Be careful to watch your oxygen meter, as the threat of suffocation is as real as the gunshots. Will you find your way out of this tin-can maze, or will your last breath be lost in space...</p>
+</div>
+
+<hr>
+
+<div class="w3-row-padding w3-center w3-margin-top">
+	<h2>Development Roles</h2>
+</div>
+
+<div class="w3-row-padding w3-center w3-margin-top">
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:150px">
+  <h3>Patrick Maier</h3><br>
+  <p>Level Designer</p>
+  <p>Graphics</p>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:150px">
+  <h3>Shravan Yandra</h3><br>
+  <p>Enemy AI</p>
+  <p>Sound Design</p>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:150px">
+  <h3>William Gross</h3><br>
+  <p>Player Character</p>
+  <p>Game Physics</p>
+  </div>
+</div>
+</div>
+
+<hr>
+
+
+
+  <!-- Development Section -->
+  <div class="w3-row w3-padding-64" id="progress">
+
+
+    <div class="w3-container w3-cell w3-padding-large">
+      <h1 class="w3-center">Development Progress</h1><br>
+      <h5 class="w3-center">Fall 2018</h5>
+      <p class="w3-large">We are Group 7 in CAP 4053. This site will track the progress we make each week in development of our real-time game.
+      The most recent update is at the top, starting in the section below.</p>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Update template 2 -->
+  <div class="w3-row w3-padding-64" id="update">
+    <div class="w3-col m5 l5 w3-padding-large w3-hide-small">
+     <video width="400" height="400" controls> <source src="10_7_2018_Friction_Demo.mp4" type="video/mp4"</video>
+    </div>
+
+    <div class="w3-col m7 l7 w3-padding-small">
+      <h1 class="w3-center">October 7, 2018</h1><br>
+      <h5 class="w3-center">Player Weapons & Controls</h5>
+      <p class="w3-large">This week more progress was made on the player character. One of our plans was to create sections in space that utilized weapon momentum. We added a friction coefficient
+          which increases the amount of time for the player to stop moving. In addition, it lowers the influence of the players movement controls. The weapon recoil is not affected by this which
+          allows the player to move by firing in the opposite direction.</p>
+
+
+
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="w3-row w3-padding-64" id="update">
+    <div class="w3-col m5 l5 w3-padding-large w3-hide-small">
+     <video width="400" height="400" controls> <source src="10_7_2018_Weapon_Demo.mp4" type="video/mp4"</video>
+    </div>
+
+    <div class="w3-col m7 l7 w3-padding-small">
+      <h5 class="w3-center">Player Weapons & Controls (continued)</h5>
+      <p class="w3-large">We also added a second weapon type. The shotgun fires three projectiles. One directly ahead and one on either side at a 10 degree angle. The shotgun fires slower and has a larger recoil
+      than the pistol.We also added the ability to switch between the pistol and shotgun using the space bar.</p>
+
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="w3-row w3-padding-64" id="update">
+    <div class="w3-col m5 l5 w3-padding-large w3-hide-small">
+     <video width="400" height="400" controls> <source src="10_7_2018_Controller_Demo.mp4" type="video/mp4"</video>
+    </div>
+
+    <div class="w3-col m7 l7 w3-padding-small">
+      <h5 class="w3-center">Player Weapons & Controls (continued)</h5>
+      <p class="w3-large">Finally, we added some controller support. This has been tested with a wired xbox 360 controller The player is moved using the left analogue stick. When the player tilts the right analogue
+      stick, the player character fires in the direction that the stick was tilted in. Currently, weapons can be switched using the a button. When controller input is detected, the mouse cursor
+      becomes hidden. Moving with the arrow keys or clicking the mouse button brings it back.</p>
+    </div>
+  </div>
+
+  <!-- Update template 1 -->
+  <div class="w3-row w3-padding-64" id="update">
+    <div class="w3-col m7 l7 w3-padding-large">
+      <h1 class="w3-center">September 29, 2018</h1><br>
+      <h5 class="w3-center">Tiles & Map Building</h5>
+      <p class="w3-large">This week we acquired some free assets to work as the current wall and floor sprites. We used Unity’s Tilemap feature to quickly prototype different level layouts by using the Tilemap brushes. This allowed us to easily add collision detections to the walls as well. We will next begin work on creating other types of objects to be placed in our levels. Weapon upgrades will likely be implemented next.</p>
+    </div>
+
+    <div class="w3-col m5 l5 w3-padding-large w3-hide-small">
+     <img src="Walls.PNG" class="w3-round w3-image w3-opacity-min" alt="Wall Picture" width="500" height="400">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Update template 2 -->
+  <div class="w3-row w3-padding-64" id="update">
+    <div class="w3-col m5 l5 w3-padding-large w3-hide-small">
+     <video width="400" height="400" controls> <source src="9_22_2018.mp4" type="video/mp4"</video>
+    </div>
+
+    <div class="w3-col m7 l7 w3-padding-small">
+      <h1 class="w3-center">September 22, 2018</h1><br>
+      <h5 class="w3-center">Setup & Player Mechanics</h5>
+      <p class="w3-large">We created a unity project and activated the collaboration option so all group members could work together. We created a prototype to test basic player controls. The "player character" can move with wasd and a cursor is generated to show where the player is aiming. The player can shoot by pressing the mouse button or holding the button down. A restriction has been placed on the weapons fire rate. There still isnt any collision detection.</p>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Update template 1 -->
+  <div class="w3-row w3-padding-64" id="update">
+    <div class="w3-col m7 l7 w3-padding-small">
+      <h1 class="w3-center">September 15, 2018</h1><br>
+      <h5 class="w3-center">Design & Proposal</h5>
+      <p class="w3-large">Met to discuss overall design of the game to prepare for the <a href = 'SpaceGroup7.pdf'>game proposal presentation</a>. Downloaded Unity to start developement.</p>
+    </div>
+
+    <div class="w3-col m5 l5 w3-padding-large w3-hide-small">
+     <img src="Design.jpg" class="w3-round w3-image w3-opacity-min" alt="Design Picture" width="600" height="750">
+    </div>
+  </div>
+
+  <hr>
+
+
+
+  <div class="w3-row w3-padding-64" id="about">
+
+ <hr>
+
+
+  </div>
+</div>
+
+</body>
 </html>
