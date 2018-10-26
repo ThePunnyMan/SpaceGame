@@ -78,6 +78,21 @@
 
   <hr>
 
+	
+  <!-- Update template 1 -->
+  <div class="w3-row w3-padding-64" id="update">
+    <div class="w3-col m7 l7 w3-padding-large">
+      <h1 class="w3-center">October 14, 2018</h1><br>
+      <h5 class="w3-center">Patrol Enemy Type</h5>
+      <p class="w3-large">This week we implemented one of the main enemy types for the game. The enemy has a default "patrol" state in which it moves between set waypoints, waiting for a player to enter into its 
+	    vision cone. The range and angle of the cone can be easily tweaked in the unity inspector to more quickly find what feels right for the game. Once the enemy detects a player, it "engages" the player character.
+	    It takes shots when it has line of sight, and moves to the waypoint closest to where the player was last seen if it does not have a shot. If the player is out of sight for a long enough time, the enemy returns
+	    to its default patrol state.</p>
+    </div>
+  </div>
+
+  <hr>
+	
   <!-- Update template 2 -->
   <div class="w3-row w3-padding-64" id="update">
     <div class="w3-col m5 l5 w3-padding-large w3-hide-small">
