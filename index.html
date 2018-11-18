@@ -90,6 +90,32 @@
 	
   <hr>
 	
+   <div class="w3-row w3-padding-64" id="update">
+    <div class="w3-col m5 l5 w3-padding-large w3-hide-small">
+     <video width="400" height="400" controls> <source src="11_17_2018_EnemiesDemo.mp4" type="video/mp4"</video>
+     <video width="400" height="400" controls> <source src="11_17_2018_BossDemo.mp4" type="video/mp4"</video>
+    </div>
+    <div class="w3-col m7 l7 w3-padding-small">
+      <h1 class="w3-center">November 10, 2018</h1><br>
+      <h5 class="w3-center">Game Demo Week</h5>
+      <p class="w3-large">This week was the in class game demo. For this milestone, we promised to have two more levels, a total of three enemies and a boss enemy. On the day of the event we
+      had all of things as well as multiple other smaller updates. In the first level, we updated the enemy's AI so it was more realistic and replaced the placeholder sprite with a new sprite
+      created by us. The second level was updated by adding a two enemies. The new third level is arena shaped. Three waves of enemies spawn in one at a time. In order to proceed, the player must
+      defeat all three waves. This is the first room with the two new basic enemies. The first is a statue shaped enemy that persues the player, fires projectiles in all directions and then flees
+      until it is time to attack again. The other is a bomb shaped enemy that persues the player for a certain amount of time until they explode. To keep players stocked with ammo, each enemy has a chance to drop an item that restores some amminution to all the player's weapons.<br> The final room has our boss enemy. This enemy
+      has three phases. The first involves the tentacle slap attack and spinning attack mentioned last week. Each frame of animation has a box collider drwan around it for collision detection. 
+      The boss saves the players position last frame and takes the difference to get a velocity prediciton. It then uses this value to predict where the player will be when the attack starts.
+      The second phase adds a new attack, the enemy spits a ball of slime. When it reaches the player's predicted location it creates an area that damages the enemy and slows their movement.
+      The final phase is the same as the second phase but the cooldowns for the attacks are reduced. Beating the boss takes the player to a winning screen that displays how long it took to beat the game
+      There is also a new game over screen if the player runs out of lives. Both of these screens are functional but are only placeholders and need some adjustment.</p>
+
+
+
+    </div>
+  </div>
+	
+  <hr>
+	
   <div class="w3-row w3-padding-64" id="update">
     <div class="w3-col m7 l7 w3-padding-small">
       <h1 class="w3-center">November 3, 2018</h1><br>
